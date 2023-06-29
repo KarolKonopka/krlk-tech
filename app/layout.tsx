@@ -1,10 +1,10 @@
 import Link from "next/link"
 import "./globals.css"
-import { Inter } from "next/font/google"
+import { Lora } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle } from "@/components/mode-toggle"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Lora({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Create Next App",
